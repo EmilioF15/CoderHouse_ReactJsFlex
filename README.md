@@ -1,8 +1,7 @@
-# React + Vite
+# Repositorio del Proyecto de E-commerce para el curso ReactJS de Coder House 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pasos para trabajar luego de clonar el repo.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Correr npm install
+2. Correr npm run dev
+3. Para preparar el deplo, correr npm run build

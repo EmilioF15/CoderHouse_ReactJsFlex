@@ -2,11 +2,12 @@ import CartWidget from "../CartWidget/CartWidget";
 const NavBar = () => {
   return (
     <nav>
-      <h3>Ecomerce</h3>
+      <h3>Ecomerce-Filandini</h3>
       <div>
-        <button>Celulares</button>
-        <button>Tablets</button>
-        <button>Notebooks</button>
+        <button>Suturas Mecanicas</button>
+        <button>Cardiologia</button>
+        <button>Mallas de Hernioplastia</button>
+        <button>Electrocirugia</button>
       </div>
       <CartWidget/>
     </nav>
