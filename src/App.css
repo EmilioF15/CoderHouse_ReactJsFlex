@@ -5,6 +5,21 @@
   text-align: center;
 }
 
+.ListGroup{
+  display: flex;
+  gap: 10px;
+}
+
+.CardItem{
+  background-color: #829298;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.CardItem Header{
+  color: #331E38;
+}
+
 nav{
   display: flex;
   margin: 5px;
