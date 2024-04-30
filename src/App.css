@@ -5,6 +5,9 @@
   text-align: center;
 }
 
+.App{
+  margin: 5px;
+}
 .ListGroup{
   display: flex;
   gap: 10px;

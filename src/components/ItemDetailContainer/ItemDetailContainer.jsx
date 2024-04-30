@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
       .then((response) => {
         setProduct(response);
       })
-      .cath((err) => console.error(err));
+      .catch((err) => console.error(err));
   }, []);
 
   return (
