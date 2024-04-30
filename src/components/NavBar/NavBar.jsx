@@ -7,16 +7,13 @@ const NavBar = () => {
         <h3>E-Commerce Filandini</h3>
       </Link>
       <div className="Categories">
-        <NavLink
-          to={`/category/celulares`}
-          className="Button"
-        >
-          Celulares
+        <NavLink to={`/category/SuturasMecanicas`} className="Button">
+          Suturas Mecanicas
         </NavLink>
-        <button>Suturas Mecan</button>
-        <button>Cardiologia</button>
-        <button>Mallas de Hernioplastia</button>
-        <button>Electrocirugia</button>
+        <NavLink to={`/category/Cardiologia`} className="Button">
+          Cardiologia
+        </NavLink>
+        <NavLink to={`/category/CirugiaPlastica`}>Cirugia Plastica</NavLink>
       </div>
       <CartWidget />
     </nav>

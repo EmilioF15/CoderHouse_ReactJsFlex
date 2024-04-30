@@ -66,3 +66,18 @@ nav{
 .read-the-docs {
   color: #888;
 }
+.NavLink {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #646cff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.NavLink:hover {
+  background-color: #4b42ff;
+}

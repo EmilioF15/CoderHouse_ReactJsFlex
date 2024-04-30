@@ -1,27 +1,27 @@
 const products = [
   {
     id: 1,
-    name: "nombre Mock producto 1",
-    category: "celulares",
-    stock: 30,
+    name: "Sutura Mecanica Endoscopica",
+    category: "SuturasMecanicas",
+    stock: "30",
     img: "",
-    description: "Product 1 descripcion",
+    description: "Sutura Universal Endoscopica",
   },
   {
     id: 2,
-    name: "nombre Mock producto 2",
-    category: "Cat2",
+    name: "Stent Coronario",
+    category: "Cardiologia",
     stock: 10,
     img: "",
-    description: "Product 2 descripcion",
+    description: "Stent Liberador de Droga Coronario",
   },
   {
     id: 3,
-    name: "nombre Mock producto 1",
-    category: "Cat3",
+    name: "Implante Mamario Impleo Gel",
+    category: "CirugiaPlastica",
     stock: 0,
     img: "",
-    description: "Product 3 descripcion",
+    description: "Implante Mamario de Gel Cohesivo",
   },
 ];
 
