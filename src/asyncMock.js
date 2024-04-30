@@ -4,7 +4,7 @@ const products = [
     name: "Sutura Mecanica Endoscopica",
     category: "SuturasMecanicas",
     stock: "30",
-    img: "",
+    img: "https://capitalimplants.com.ar/wp-content/uploads/2019/07/EasyEndo-Flex-producto2.jpg",
     description: "Sutura Universal Endoscopica",
   },
   {
@@ -12,7 +12,7 @@ const products = [
     name: "Stent Coronario",
     category: "Cardiologia",
     stock: 10,
-    img: "",
+    img: "https://capitalimplants.com.ar/wp-content/uploads/2021/01/orsiro26243_549x549-300x300.jpg",
     description: "Stent Liberador de Droga Coronario",
   },
   {
@@ -20,7 +20,7 @@ const products = [
     name: "Implante Mamario Impleo Gel",
     category: "CirugiaPlastica",
     stock: 0,
-    img: "",
+    img: "https://capitalimplants.com.ar/wp-content/uploads/2019/12/Impleo.png",
     description: "Implante Mamario de Gel Cohesivo",
   },
 ];

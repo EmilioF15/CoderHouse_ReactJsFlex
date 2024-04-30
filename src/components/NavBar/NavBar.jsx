@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <nav className="NavBar">
       <Link to="/">
-        <h3>E-Commerce Filandini</h3>
+        <h3 className="Button">Inicio</h3>
       </Link>
       <div className="Categories">
         <NavLink to={`/category/SuturasMecanicas`} className="Button">
@@ -13,7 +13,7 @@ const NavBar = () => {
         <NavLink to={`/category/Cardiologia`} className="Button">
           Cardiologia
         </NavLink>
-        <NavLink to={`/category/CirugiaPlastica`}>Cirugia Plastica</NavLink>
+        <NavLink to={`/category/CirugiaPlastica`} className="Button">Cirugia Plastica</NavLink>
       </div>
       <CartWidget />
     </nav>

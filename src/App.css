@@ -46,7 +46,27 @@ nav{
   padding: 5px;
   align-items: center;
   justify-content: center;
-  gap:5px;
+  gap:10px;
+}
+
+.NavBar .Categories{
+  display: flex;
+  gap: 10px;
+
+}
+
+.Button{
+  background-color: #646cff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -81,3 +101,4 @@ nav{
 .NavLink:hover {
   background-color: #4b42ff;
 }
+
