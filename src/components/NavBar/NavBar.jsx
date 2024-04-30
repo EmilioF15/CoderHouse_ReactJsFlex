@@ -8,7 +8,7 @@ const NavBar = () => {
       </Link>
       <div className="Categories">
         <NavLink
-          to={`/category/celular`}
+          to={`/category/Celulares`}
           className={({ isActive }) => (isActive ? `ActiveOption` : `Option`)}
         >
           Celulares

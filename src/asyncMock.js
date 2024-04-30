@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "nombre Mock producto 1",
-    category: "Celulares",
+    category: "celulares",
     stock: 30,
     img: "",
     description: "Product 1 descripcion",
@@ -44,7 +44,7 @@ export const getProductById = (productId) => {
 export const getProductsByCategory = (productCategory) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(products.find((prod) => prod.category === productCategory));
+      resolve(products.filter((prod) => prod.category === productCategory));
     }, 500);
   });
 };
