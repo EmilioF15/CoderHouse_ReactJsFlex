@@ -10,6 +10,18 @@
   gap: 10px;
 }
 
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px;
+}
+
+.ListGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .CardItem{
   background-color: #829298;
   border-radius: 15px;
