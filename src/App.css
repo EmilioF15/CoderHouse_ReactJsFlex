@@ -40,6 +40,15 @@ nav{
   justify-content: center;
 }
 
+.NavBar{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

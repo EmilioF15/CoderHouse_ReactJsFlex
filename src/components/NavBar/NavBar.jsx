@@ -8,8 +8,8 @@ const NavBar = () => {
       </Link>
       <div className="Categories">
         <NavLink
-          to={`/category/Celulares`}
-          className={({ isActive }) => (isActive ? `ActiveOption` : `Option`)}
+          to={`/category/celulares`}
+          className="Button"
         >
           Celulares
         </NavLink>
