@@ -6,6 +6,7 @@ const products = [
     stock: "30",
     img: "https://capitalimplants.com.ar/wp-content/uploads/2019/07/EasyEndo-Flex-producto2.jpg",
     description: "Sutura Universal Endoscopica",
+    price:4000,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const products = [
     stock: 10,
     img: "https://capitalimplants.com.ar/wp-content/uploads/2021/01/orsiro26243_549x549-300x300.jpg",
     description: "Stent Liberador de Droga Coronario",
+    price:1600,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const products = [
     stock: 0,
     img: "https://capitalimplants.com.ar/wp-content/uploads/2019/12/Impleo.png",
     description: "Implante Mamario de Gel Cohesivo",
+    price:980,
   },
 ];
 
