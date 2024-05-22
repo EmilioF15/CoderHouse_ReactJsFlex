@@ -21,7 +21,7 @@ const products = [
     id: 3,
     name: "Implante Mamario Impleo Gel",
     category: "CirugiaPlastica",
-    stock: 0,
+    stock: 1,
     img: "https://capitalimplants.com.ar/wp-content/uploads/2019/12/Impleo.png",
     description: "Implante Mamario de Gel Cohesivo",
     price:980,

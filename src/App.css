@@ -5,24 +5,25 @@
   text-align: center;
 }
 
-.ListGroup{
+.ListGroup {
   display: flex;
   gap: 10px;
 }
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin: 5px;
 }
 
-.ListGroup{
+.ListGroup {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.CardItem{
+
+.CardItem {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -31,33 +32,33 @@
   border-radius: 15px;
   padding: 15px;
   width: 300px;
-  height: 400px;
+  height: 600px;
   border: 1px solid transparent;
 }
 
-.CardItem:hover{
+.CardItem:hover {
   border: 1px solid #646cffaa;
-
 }
 
-.CardItem .Header{
+.CardItem .Header {
   font-size: 1.5em;
   font-weight: bold;
   color: #331E38;
   height: 20%;
   font-size: smaller;
 }
-.CardItem img{
+
+.CardItem img {
   width: 300px;
   height: 150px;
   border-radius: 15px;
 }
 
-.CardItem Header{
+.CardItem Header {
   color: #331E38;
 }
 
-nav{
+nav {
   display: flex;
   margin: 5px;
   padding: 5px;
@@ -65,22 +66,21 @@ nav{
   justify-content: center;
 }
 
-.NavBar{
+.NavBar {
   display: flex;
   margin: 5px;
   padding: 5px;
   align-items: center;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
 }
 
-.NavBar .Categories{
+.NavBar .Categories {
   display: flex;
   gap: 10px;
-
 }
 
-.Button{
+.Button {
   background-color: #646cff;
   color: white;
   padding: 10px;
@@ -100,6 +100,7 @@ nav{
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -111,6 +112,7 @@ nav{
 .read-the-docs {
   color: #888;
 }
+
 .NavLink {
   display: inline-block;
   padding: 10px 20px;
@@ -127,3 +129,44 @@ nav{
   background-color: #4b42ff;
 }
 
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Button {
+  background-color: #646cff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.Button:active {
+  background-color: #4b42ff;
+}
+
+.Number {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin: 0 10px;
+}
